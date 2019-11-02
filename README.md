@@ -90,13 +90,15 @@ Algoritmo e Lógica de Programação
 ![Imagem cmd run Jupyter Notebook](/imagens/cmd_run_Jupyter-Notebook.PNG "Figura - 13")
 
 ```
-Obs. Caso não abra o navegador padrão com o acesso ao Jupyter Notebook, copie e cole no navegador padrão e URL e de acesso, **Figura - 14**:
+Obs. Caso não abra o navegador padrão com o acesso ao Jupyter Notebook,
+copie e cole no navegador padrão e URL e de acesso, **Figura - 14**:
 ```
 
  ![Imagem copiar URL](/imagens/cmd_cp_URL.PNG "Figura - 14")
  
 ```
-No computador gerou a URL “http://localhost:8888/?token=b0440a6dff3b806f3592b58797390fabdf6d1dddf645c957”, copie a URL gerada e cole no navegador padrão e pressione enter que abrirá os recursos do Jupyter Notebook, **Figura - 15**:
+No computador gerou a URL “http://localhost:8888/?token=b0440a6dff3b806f3592b58797390fabdf6d1dddf645c957”,
+copie a URL gerada e cole no navegador padrão e pressione enter que abrirá os recursos do Jupyter Notebook, **Figura - 15**:
 ```
 
  ![Imagem Browser - Pagina Inicial Jupyter](/imagens/browser_home-Jupyter.png "Figura - 15")
@@ -124,7 +126,9 @@ import matplotlib.pyplot as plt
  ![Imagem Browser - Input Import](/imagens/browser_input-import.PNG "Figura - 19")
 
 ```
-> Atenção: Caso apareça um asterisco entre colchetes, significa que o comando está em execução, caso seja representado numericamente, significa que o comando foi executado, caso apareça em branco, significa que os comandos contidos na célula não foram executados.
+Atenção: Caso apareça um asterisco entre colchetes, significa que o comando está em execução,
+caso seja representado numericamente, significa que o comando foi executado, caso apareça em branco,
+significa que os comandos contidos na célula não foram executados.
 ```
 
    - Configurações iniciais:
