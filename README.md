@@ -40,21 +40,21 @@ Análise de dados INEP ENAD, negros (Pretos e Pardos) ingressantes a faculdades 
 
  ![Imagem teclado](/imagens/teclado.PNG "Figura - 3")
  
-   - Digite <cmd> e pressione enter, **Figura - 4**;
+   - Digite (**cmd**) e pressione enter, **Figura - 4**;
   
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 4")
  
-   - Digite o comando <pip install --upgrade pip> e pressione enter, aguarde a atualização, **Figura - 5**.
+   - Digite o comando (pip install --upgrade pip) e pressione enter, aguarde a atualização, **Figura - 5**.
     
  ![Imagem cmd upgrade PIP](/imagens/cmd_upgrade_pip.PNG "Figura - 5")
  
   -	Instalação das bibliotecas e dependências:
     - Abra o prompt de comando:
-      - Pressione Tecla Windows + R, **Figura - 6**;
+     - Pressione Tecla **Windows + R**, **Figura - 6**;
     
  ![Imagem teclado](/imagens/teclado.PNG "Figura - 6")
  
-   - Digite <cmd> e pressione enter, **Figura - 7**;
+   - Digite (**cmd**) e pressione enter, **Figura - 7**;
     
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 7")
  
@@ -63,30 +63,30 @@ Análise de dados INEP ENAD, negros (Pretos e Pardos) ingressantes a faculdades 
  ![Imagem cmd PIP instalação dependências](/imagens/cmd_install_dependencias.PNG "Figura - 8")
 
   - Preparação do ambiente para análise dos dados:
-    - Crie um diretório, selecione o local que desejar. Neste trabalho utilizado o diretório <C:\Analise-Dados-INEP>;
+    - Crie um diretório, selecione o local que desejar. Neste trabalho utilizado o diretório (**C:\Analise-Dados-INEP>**);
     - Baixe os arquivos ‘.CSV’ para análise. Arquivos estão disponíveis em:
-      - [Link download Dados](https://drive.google.com/file/d/1IOG8BEshJLGOQG2Eg84v8UMPeSATbiJ4/view?usp=sharing)
-      - Neste trabalho serão analisados os anos de 2009 há 2013.
-    - Extraia os arquivos dentro do diretório <C:\Analise-Dados-INEP\Dados\>, **Figura - 9**;
+     - [Link download Dados](https://drive.google.com/file/d/1IOG8BEshJLGOQG2Eg84v8UMPeSATbiJ4/view?usp=sharing)
+     - Neste trabalho serão analisados os anos de 2009 há 2013.
+    - Extraia os arquivos dentro do diretório (**C:\Analise-Dados-INEP\Dados\**), **Figura - 9**;
   
   ![Imagem cmd dir Dados](/imagens/cmd_dir_dados.PNG "Figura - 9")
 
 
   - Executar Jupyter Notebook:
     - Abra o prompt de comando:
-      - Pressione Tecla Windows + R, **Figura - 10**;
+     - Pressione Tecla **Windows + R**, **Figura - 10**;
     
  ![Imagem teclado](/imagens/teclado.PNG "Figura - 10")
  
-   - Digite <cmd> e pressione enter, **Figura - 11**;
+   - Digite (**cmd**) e pressione enter, **Figura - 11**;
     
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 11")
  
-   - Acesse o diretório <C:\Analise-Dados-INEP\>, digite o comando <cd C:\Analise-Dados-INEP> e pressione enter, **Figura - 12**;
+   - Acesse o diretório (**C:\Analise-Dados-INEP\**), digite o comando (**cd C:\Analise-Dados-INEP>**) e pressione enter, **Figura - 12**;
   
  ![Imagem cmd cd Diretório execução Jupyter](/imagens/cmd_cd_Analise-Dados-INEP.PNG "Figura - 12")
  
-   - Digite o comando <jupyter notebook>, será executado em servidor de web com os recursos para a realização das análises, aguarde a execução do servidor e não feche o cmd, abrirá a janela do navegador padrão com o serviço Jupyter Notebook, **Figura - 13**.
+   - Digite o comando (**jupyter notebook**), será executado em servidor de web com os recursos para a realização das análises, aguarde a execução do servidor e não feche o cmd, abrirá a janela do navegador padrão com o serviço Jupyter Notebook, **Figura - 13**.
  
 ![Imagem cmd run Jupyter Notebook](/imagens/cmd_run_Jupyter-Notebook.PNG "Figura - 13")
 
@@ -105,15 +105,15 @@ copie a URL gerada e cole no navegador padrão e pressione enter que abrirá os 
  ![Imagem Browser - Pagina Inicial Jupyter](/imagens/browser_home-Jupyter.png "Figura - 15")
  
   - Iniciar a análise de dados:
-    - Clique em <New\Python 3>, **Figura - 16**:
+    - Clique em (**New\Python 3**), **Figura - 16**:
   
  ![Imagem Browser - Novo arquivo Python 3](/imagens/browser_new-Python-3.png "Figura - 16")
  
-   - Na nova janela que abrira renomeie o arquivo para o nome desejado, neste trabalho utilizado o nome “data-analyst-INEP-ENADE-2009TO2013”, **Figura - 17**:
+   - Na nova janela que abrira renomeie o arquivo para o nome desejado, neste trabalho utilizado o nome “**data-analyst-INEP-ENADE-2009TO2013**”, **Figura - 17**:
   
  ![Imagem Browser - Renomear arquivo](/imagens/browser_rename-Project.png "Figura - 17")
  
-   - Inserir as células e executá-las, para adicionar pressione o botão (+) e para executar pressione o botão (>| Run), da paleta de comandos, conforme figura abaixo:
+   - Inserir as células e executá-las, para adicionar pressione o botão (**+**) e para executar pressione o botão (**>| Run**), da paleta de comandos, **Figura - 18**:
   
  ![Imagem Browser - Comandos](/imagens/browser_add-run.PNG "Figura - 18")
  
