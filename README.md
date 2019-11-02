@@ -9,19 +9,20 @@ Professor: Eduardo Masanori;
 Atividade: EP1: Análise de Dados.
 
 Equipamento utilizado para o trabalho:
-•	Nome do Sistema Operacional: Microsoft Windows 7 Professional;
-•	Versão: 6.1.7601 Service Pack 1 Compilação 7601;
-•	Tipo do sistema: x64-based PC;
-•	Processador: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz, 2501 Mhz, 2 Núcleo(s), 4 Processador(es) Lógico(s);
-•	Memória Física (RAM) Instalada: 4,00 GB;
-•	Memória física total: 3,87 GB.
+-	Nome do Sistema Operacional: Microsoft Windows 7 Professional;
+-	Versão: 6.1.7601 Service Pack 1 Compilação 7601;
+-	Tipo do sistema: x64-based PC;
+-	Processador: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz, 2501 Mhz, 2 Núcleo(s), 4 Processador(es) Lógico(s);
+-	Memória Física (RAM) Instalada: 4,00 GB;
+-	Memória física total: 3,87 GB.
 
 Dependências para a execução da análise e apresentação das informações:
-  •	Python:
-    o	Versão: python-3.7.4-amd64;
-    o	Download: [Link download Pyton](https://www.python.org/downloads/);
-    o	Instalação:
-      	Na instalação, habilite a opção <pip> Figura1, pacote que permitirá a instalação de pacotes e suas dependências via prompt, e, habilite a opção <Add python to environment variables> Figura2, para que os comandos do Python sejam executar em qualquer diretório via prompt.
+  -	Python:
+    - Versão: python-3.7.4-amd64;
+    - Download: [Link download Pyton](https://www.python.org/downloads/);
+    - Instalação:
+    
+      -	Na instalação, habilite a opção <pip> Figura, pacote que permitirá a instalação de pacotes e suas dependências via prompt, e, habilite a opção <Add python to environment variables> Figura, para que os comandos do Python sejam executar em qualquer diretório via prompt.
   ![Imagem de habilitar o PIP](/imagens/python_pip.png)
   ![Imagem de habilitar o PATH](/imagens/python_environment.PNG)
  
@@ -62,8 +63,11 @@ o	Executar o Jupyter Notebook:
  ![Imagem cmd cd Diretório execução Jupyter](/imagens/cmd_cd_Analise-Dados-INEP.PNG)
 	Digite o comando <jupyter notebook>, será executado em servidor de web com os recursos para a realização das análises, aguarde a execução do servidor e não feche o cmd, abrirá a janela do navegador padrão com o serviço Jupyter Notebook.
  ![Imagem cmd run Jupyter Notebook](/imagens/cmd_run_Jupyter-Notebook.PNG)
+  
+[!IMPORTANT]
 
 Obs. Caso não abra o navegador padrão com o acesso ao Jupyter Notebook, copie e cole no navegador padrão e URL e de acesso, conforme figura abaixo:
+  
  ![Imagem copiar URL](/imagens/cmd_cp_URL.PNG)
 No computador gerou a URL “http://localhost:8888/?token=b0440a6dff3b806f3592b58797390fabdf6d1dddf645c957”, copie a URL gerada e cole no navegador padrão e pressione enter que abrirá os recursos do Jupyter Notebook, conforme imagem abaixo:
  ![Imagem Browser - Pagina Inicial Jupyter](/imagens/browser_home-Jupyter.png)
