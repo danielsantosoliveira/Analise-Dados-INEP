@@ -28,15 +28,15 @@ Análise de dados INEP ENAD, negros (Pretos e Pardos) ingressantes a faculdades 
   - Versão: python-3.7.4-amd64;
   - Download: [Link download Pyton](https://www.python.org/downloads/);
   - Instalação:
-    - Na instalação, habilite a opção <pip> **Figura - 1**, pacote que permitirá a instalação de pacotes e suas dependências via prompt, e, habilite a opção <Add python to environment variables> **Figura - 2**, para que os comandos do Python sejam executar em qualquer diretório via prompt.
+   - Na instalação, habilite a opção (**pip**) **Figura - 1**, pacote que permitirá a instalação de pacotes e suas dependências via prompt, e, habilite a opção **Add python to environment variables** **Figura - 2**, para que os comandos do Python sejam executar em qualquer diretório via prompt.
   
   ![Imagem de habilitar o PIP](/imagens/python_pip.png "Figura - 1")
   
   ![Imagem de habilitar o PATH](/imagens/python_environment.PNG "Figura - 2")
  
   -	Atualização pip:
-    - Abra o prompt de comando:
-      - Pressione Tecla Windows + R, **Figura - 3**;
+   - Abra o prompt de comando:
+    - Pressione **Tecla Windows + R**, **Figura - 3**;
 
  ![Imagem teclado](/imagens/teclado.PNG "Figura - 3")
  
@@ -44,7 +44,7 @@ Análise de dados INEP ENAD, negros (Pretos e Pardos) ingressantes a faculdades 
   
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 4")
  
-   - Digite o comando (pip install --upgrade pip) e pressione enter, aguarde a atualização, **Figura - 5**.
+   - Digite o comando (**pip install --upgrade pip**) e pressione enter, aguarde a atualização, **Figura - 5**.
     
  ![Imagem cmd upgrade PIP](/imagens/cmd_upgrade_pip.PNG "Figura - 5")
  
