@@ -14,7 +14,7 @@ Algoritmo e Lógica de Programação
 
 **Atividade**: EP1: Análise de Dados.
 
-##Equipamento utilizado para o trabalho:
+## Equipamento utilizado para o trabalho:
 -	Nome do Sistema Operacional: Microsoft Windows 7 Professional;
 -	Versão: 6.1.7601 Service Pack 1 Compilação 7601;
 -	Tipo do sistema: x64-based PC;
@@ -22,12 +22,11 @@ Algoritmo e Lógica de Programação
 -	Memória Física (RAM) Instalada: 4,00 GB;
 -	Memória física total: 3,87 GB.
 
-##Dependências para a execução da análise e apresentação das informações:
+## Dependências para a execução da análise e apresentação das informações:
   -	Python:
     - Versão: python-3.7.4-amd64;
     - Download: [Link download Pyton](https://www.python.org/downloads/);
     - Instalação:
-    
       -	Na instalação, habilite a opção <pip> Figura, pacote que permitirá a instalação de pacotes e suas dependências via prompt, e, habilite a opção <Add python to environment variables> Figura, para que os comandos do Python sejam executar em qualquer diretório via prompt.
   
   ![Imagem de habilitar o PIP](/imagens/python_pip.png)
@@ -44,7 +43,7 @@ Algoritmo e Lógica de Programação
   
  ![Imagem janela executar](/imagens/executar.PNG)
  
-    -	Digite o comando <pip install --upgrade pip> e pressione enter, aguarde a atualização.
+    - Digite o comando <pip install --upgrade pip> e pressione enter, aguarde a atualização.
     
  ![Imagem cmd upgrade PIP](/imagens/cmd_upgrade_pip.PNG)
  
@@ -54,7 +53,7 @@ Algoritmo e Lógica de Programação
     
  ![Imagem teclado](/imagens/teclado.PNG)
  
-    -	Digite <cmd> e pressione enter;
+    - Digite <cmd> e pressione enter;
     
  ![Imagem janela executar](/imagens/executar.PNG)
  
@@ -62,32 +61,41 @@ Algoritmo e Lógica de Programação
   
  ![Imagem cmd PIP instalação dependências](/imagens/cmd_install_dependencias.PNG)
 
-o	Preparação do ambiente para análise dos dados:
-	Crie um diretório, selecione o local que desejar. Neste trabalho utilizado o diretório <C:\Analise-Dados-INEP>;
-	Baixe os arquivos ‘.CSV’ para análise. Arquivos estão disponíveis em:
-•	https://drive.google.com/file/d/1IOG8BEshJLGOQG2Eg84v8UMPeSATbiJ4/view?usp=sharing
-•	Neste trabalho serão analisados os anos de 2009 há 2013.
-	Extraia os arquivos dentro do diretório <C:\Analise-Dados-INEP\Dados\>;
+- Preparação do ambiente para análise dos dados:
+  - Crie um diretório, selecione o local que desejar. Neste trabalho utilizado o diretório <C:\Analise-Dados-INEP>;
+  - Baixe os arquivos ‘.CSV’ para análise. Arquivos estão disponíveis em:
+    - https://drive.google.com/file/d/1IOG8BEshJLGOQG2Eg84v8UMPeSATbiJ4/view?usp=sharing
+    - Neste trabalho serão analisados os anos de 2009 há 2013.
+  - Extraia os arquivos dentro do diretório <C:\Analise-Dados-INEP\Dados\>;
+  
   ![Imagem cmd dir Dados](/imagens/cmd_dir_dados.PNG)
 
 
-o	Executar o Jupyter Notebook:
-	Abra o prompt de comando:
-•	Pressione Tecla Windows + R;
+- Executar o Jupyter Notebook:
+  - Abra o prompt de comando:
+    - Pressione Tecla Windows + R;
+    
  ![Imagem teclado](/imagens/teclado.PNG)
-•	Digite <cmd> e pressione enter;
+ 
+    - Digite <cmd> e pressione enter;
+    
  ![Imagem janela executar](/imagens/executar.PNG)
-	Acesse o diretório <C:\Analise-Dados-INEP\>, digite o comando <cd C:\Analise-Dados-INEP> e pressione enter;
- ![Imagem cmd cd Diretório execução Jupyter](/imagens/cmd_cd_Analise-Dados-INEP.PNG)
-	Digite o comando <jupyter notebook>, será executado em servidor de web com os recursos para a realização das análises, aguarde a execução do servidor e não feche o cmd, abrirá a janela do navegador padrão com o serviço Jupyter Notebook.
- ![Imagem cmd run Jupyter Notebook](/imagens/cmd_run_Jupyter-Notebook.PNG)
+ 
+  - Acesse o diretório <C:\Analise-Dados-INEP\>, digite o comando <cd C:\Analise-Dados-INEP> e pressione enter;
   
-> Obs. Caso não abra o navegador padrão com o acesso ao Jupyter Notebook, copie e cole no navegador padrão e URL e de acesso, conforme figura abaixo:
->
+ ![Imagem cmd cd Diretório execução Jupyter](/imagens/cmd_cd_Analise-Dados-INEP.PNG)
+ 
+  - Digite o comando <jupyter notebook>, será executado em servidor de web com os recursos para a realização das análises, aguarde a execução do servidor e não feche o cmd, abrirá a janela do navegador padrão com o serviço Jupyter Notebook.
+ 
+![Imagem cmd run Jupyter Notebook](/imagens/cmd_run_Jupyter-Notebook.PNG)
+
+```  
+Obs. Caso não abra o navegador padrão com o acesso ao Jupyter Notebook, copie e cole no navegador padrão e URL e de acesso, conforme figura abaixo:
+```
 
  ![Imagem copiar URL](/imagens/cmd_cp_URL.PNG)
 
-> No computador gerou a URL “http://localhost:8888/?token=b0440a6dff3b806f3592b58797390fabdf6d1dddf645c957”, copie a URL gerada e cole no navegador padrão e pressione enter que abrirá os recursos do Jupyter Notebook, conforme imagem abaixo:
+No computador gerou a URL “http://localhost:8888/?token=b0440a6dff3b806f3592b58797390fabdf6d1dddf645c957”, copie a URL gerada e cole no navegador padrão e pressione enter que abrirá os recursos do Jupyter Notebook, conforme imagem abaixo:
 
  ![Imagem Browser - Pagina Inicial Jupyter](/imagens/browser_home-Jupyter.png)
  
