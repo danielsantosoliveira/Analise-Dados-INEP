@@ -78,23 +78,28 @@ o	Iniciar a análise de dados:
  ![Imagem Browser - Comandos](/imagens/browser_add-run.PNG)
  
 •	Import das bibliotecas:
+```python
 #import das bibliotecas necessárias para o desenvolvimento do EP
 import pandas as pd
 import matplotlib.pyplot as plt
+```
  ![Imagem Browser - Input Import](/imagens/browser_input-import.PNG)
  
 Atenção: Caso apareça um asterisco entre colchetes, significa que o comando está em execução, caso seja representado numericamente, significa que o comando foi executado, caso apareça em branco, significa que os comandos contidos na célula não foram executados.
 •	Configurações iniciais:
+```python
 #configurações iniciais
 low_memory=False
 pd.options.display.max_columns = 80
 pd.options.display.max_rows = 90
+```
 ![Imagem Browser - Input Configurações Iniciais](/imagens/browser_input-config-iniciais.png)
 
  
 
 
 •	Declaração das variáveis:
+```python
 #declaração variáveis
 d = './Dados/'
 pN = 'DM_ALUNO_' 
@@ -105,27 +110,32 @@ dados = []
 dadosFe = []
 dadosEs = []
 dadosMu = []
+```
 
 ![Imagem Browser - Input Declaração Variáveis](/imagens/browser_input-variaveis.png)
  
  
 •	Criação do Data Frame e Leitura dos arquivos, quantificando os dados e armazenando-os em suas respectivas listas:
+```python
+#criação do Data Frame e Leitura dos arquivos, contando os dados e armazená-los nas respectivas listas
 for ano in anos:
     df = pd.read_csv(d+pN+ano+e, usecols=['CO_COR_RACA_ALUNO', 'CO_CATEGORIA_ADMINISTRATIVA'], delimiter = '|', encoding = 'iso-8859-1')
     #contabilização e consolidação das informações - Geral
     dados.append(df.query('(CO_COR_RACA_ALUNO == 2 or CO_COR_RACA_ALUNO == 3) and (CO_CATEGORIA_ADMINISTRATIVA == 1 | CO_CATEGORIA_ADMINISTRATIVA == 2 | CO_CATEGORIA_ADMINISTRATIVA == 3)')['CO_COR_RACA_ALUNO'].count()) 
-    #contabilização e consolidação das informações - Federal
+    #contabilização e consolidação das inforamções - Federal
     dadosFe.append(df.query('(CO_COR_RACA_ALUNO == 2 or CO_COR_RACA_ALUNO == 3) and (CO_CATEGORIA_ADMINISTRATIVA == 1)')['CO_COR_RACA_ALUNO'].count()) 
     #contabilização e consolidação das informações - Estadual
     dadosEs.append(df.query('(CO_COR_RACA_ALUNO == 2 or CO_COR_RACA_ALUNO == 3) and (CO_CATEGORIA_ADMINISTRATIVA == 2)')['CO_COR_RACA_ALUNO'].count()) 
     #contabilização e consolidação das informações - Municipal
     dadosMu.append(df.query('(CO_COR_RACA_ALUNO == 2 or CO_COR_RACA_ALUNO == 3) and (CO_CATEGORIA_ADMINISTRATIVA == 3)')['CO_COR_RACA_ALUNO'].count())
+```
 
 
  ![Imagem Browser - Input Data Frame](/imagens/browser_input-dataframe.png)
  
 
 •	Plotar dados sintéticos obtidos no gráfico:
+```python
 #plotar dados gráfico
 fig, ax = plt.subplots()
 plt.rcParams['figure.figsize'] = (10,8)
@@ -139,12 +149,15 @@ plt.title('Evolução: Negros (Pretos e Pardos) ingressantes em Universidades P�
 plt.xlabel('Anos')
 plt.ylabel('Quantidade')
 plt.show()
+```
+
 
  ![Imagem Browser - Input Plotar Grafico](/imagens/browser_input-plotargraficos.png)
  ![Imagem Browser - Plotar Grafico](/imagens/browser_graficos.png)
  
  
 •	Consolidação dos resultados:
+```python
 #organização dos dados em tabelas, para melhor visualização dos dados
 consolidacao = {
 '2009': [dadosFe[0], dadosEs[0], dadosMu[0], dados[0]],
@@ -155,5 +168,6 @@ consolidacao = {
 }
 df_DC = pd.DataFrame(consolidacao, columns=anos, index=['Federal','Estadual','Municipal','Total'])
 df_DC
+```
  ![Imagem Browser - Input e Tabela Resultados](/imagens/browser_input-tabela_resultados.png)
 
