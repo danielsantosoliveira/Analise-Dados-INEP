@@ -2,11 +2,16 @@
 Análise de dados INEP ENAD, negros (Pretos e Pardos) ingressantes a faculdades públicas no BRASIL
 Algoritmo e Lógica de Programação
 
-**Alunos**: Daniel e Everton
+**Alunos**: Daniel e Everton;
+
 **Curso**: Análise e Desenvolvimento de Sistemas;
+
 **Período**: 1º Semestre;
+
 **Turma**: B;
+
 **Professor**: Fernando Masanori;
+
 **Atividade**: EP1: Análise de Dados.
 
 ## Equipamento utilizado para o trabalho:
@@ -34,11 +39,11 @@ Algoritmo e Lógica de Programação
 
  ![Imagem teclado](/imagens/teclado.PNG "Figura - 3")
  
-      - Digite <cmd> e pressione enter, **Figura - 4**;
+   - Digite <cmd> e pressione enter, **Figura - 4**;
   
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 4")
  
-    - Digite o comando <pip install --upgrade pip> e pressione enter, aguarde a atualização, **Figura - 5**.
+   - Digite o comando <pip install --upgrade pip> e pressione enter, aguarde a atualização, **Figura - 5**.
     
  ![Imagem cmd upgrade PIP](/imagens/cmd_upgrade_pip.PNG "Figura - 5")
  
@@ -48,18 +53,18 @@ Algoritmo e Lógica de Programação
     
  ![Imagem teclado](/imagens/teclado.PNG "Figura - 6")
  
-      - Digite <cmd> e pressione enter, **Figura - 7**;
+   - Digite <cmd> e pressione enter, **Figura - 7**;
     
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 7")
  
-    - Digite o comando <pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 pytrends seaborn numpy ipython jupyter twitter-scraper markovify folium> e pressione enter, aguarde a instalação dos pacotes, **Figura - 8**.
+   - Digite o comando <pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 pytrends seaborn numpy ipython jupyter twitter-scraper markovify folium> e pressione enter, aguarde a instalação dos pacotes, **Figura - 8**.
   
  ![Imagem cmd PIP instalação dependências](/imagens/cmd_install_dependencias.PNG "Figura - 8")
 
   - Preparação do ambiente para análise dos dados:
     - Crie um diretório, selecione o local que desejar. Neste trabalho utilizado o diretório <C:\Analise-Dados-INEP>;
     - Baixe os arquivos ‘.CSV’ para análise. Arquivos estão disponíveis em:
-      - [Link download Pyton](https://drive.google.com/file/d/1IOG8BEshJLGOQG2Eg84v8UMPeSATbiJ4/view?usp=sharing)
+      - [Link download Dados](https://drive.google.com/file/d/1IOG8BEshJLGOQG2Eg84v8UMPeSATbiJ4/view?usp=sharing)
       - Neste trabalho serão analisados os anos de 2009 há 2013.
     - Extraia os arquivos dentro do diretório <C:\Analise-Dados-INEP\Dados\>, **Figura - 9**;
   
@@ -72,15 +77,15 @@ Algoritmo e Lógica de Programação
     
  ![Imagem teclado](/imagens/teclado.PNG "Figura - 10")
  
-      - Digite <cmd> e pressione enter, **Figura - 11**;
+   - Digite <cmd> e pressione enter, **Figura - 11**;
     
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 11")
  
-    - Acesse o diretório <C:\Analise-Dados-INEP\>, digite o comando <cd C:\Analise-Dados-INEP> e pressione enter, **Figura - 12**;
+   - Acesse o diretório <C:\Analise-Dados-INEP\>, digite o comando <cd C:\Analise-Dados-INEP> e pressione enter, **Figura - 12**;
   
  ![Imagem cmd cd Diretório execução Jupyter](/imagens/cmd_cd_Analise-Dados-INEP.PNG "Figura - 12")
  
-    - Digite o comando <jupyter notebook>, será executado em servidor de web com os recursos para a realização das análises, aguarde a execução do servidor e não feche o cmd, abrirá a janela do navegador padrão com o serviço Jupyter Notebook, **Figura - 13**.
+   - Digite o comando <jupyter notebook>, será executado em servidor de web com os recursos para a realização das análises, aguarde a execução do servidor e não feche o cmd, abrirá a janela do navegador padrão com o serviço Jupyter Notebook, **Figura - 13**.
  
 ![Imagem cmd run Jupyter Notebook](/imagens/cmd_run_Jupyter-Notebook.PNG "Figura - 13")
 
@@ -101,15 +106,15 @@ No computador gerou a URL “http://localhost:8888/?token=b0440a6dff3b806f3592b5
   
  ![Imagem Browser - Novo arquivo Python 3](/imagens/browser_new-Python-3.png "Figura - 16")
  
-    - Na nova janela que abrira renomeie o arquivo para o nome desejado, neste trabalho utilizado o nome “data-analyst-INEP-ENADE-2009TO2013”, **Figura - 17**:
+   - Na nova janela que abrira renomeie o arquivo para o nome desejado, neste trabalho utilizado o nome “data-analyst-INEP-ENADE-2009TO2013”, **Figura - 17**:
   
  ![Imagem Browser - Renomear arquivo](/imagens/browser_rename-Project.png "Figura - 17")
  
-    - Inserir as células e executá-las, para adicionar pressione o botão (+) e para executar pressione o botão (>| Run), da paleta de comandos, conforme figura abaixo:
+   - Inserir as células e executá-las, para adicionar pressione o botão (+) e para executar pressione o botão (>| Run), da paleta de comandos, conforme figura abaixo:
   
  ![Imagem Browser - Comandos](/imagens/browser_add-run.PNG "Figura - 18")
  
-      - Import das bibliotecas:
+   - Import das bibliotecas:
   
 ```python
 #import das bibliotecas necessárias para o desenvolvimento do EP
@@ -122,7 +127,7 @@ import matplotlib.pyplot as plt
 > Atenção: Caso apareça um asterisco entre colchetes, significa que o comando está em execução, caso seja representado numericamente, significa que o comando foi executado, caso apareça em branco, significa que os comandos contidos na célula não foram executados.
 ```
 
-      - Configurações iniciais:
+   - Configurações iniciais:
   
 ```python
 #configurações iniciais
@@ -134,7 +139,7 @@ pd.options.display.max_rows = 90
 ![Imagem Browser - Input Configurações Iniciais](/imagens/browser_input-config-iniciais.png "Figura - 20")
 
 
-      - Declaração das variáveis:
+   - Declaração das variáveis:
   
 ```python
 #declaração variáveis
@@ -152,7 +157,7 @@ dadosMu = []
 ![Imagem Browser - Input Declaração Variáveis](/imagens/browser_input-variaveis.png "Figura - 21")
  
  
-      - Criação do Data Frame e Leitura dos arquivos, quantificando os dados e armazenando-os em suas respectivas listas:
+   - Criação do Data Frame e Leitura dos arquivos, quantificando os dados e armazenando-os em suas respectivas listas:
   
 ```python
 #criação do Data Frame e Leitura dos arquivos, contando os dados e armazená-los nas respectivas listas
@@ -172,7 +177,7 @@ for ano in anos:
  ![Imagem Browser - Input Data Frame](/imagens/browser_input-dataframe.png "Figura - 22")
  
 
-      - Plotar dados sintéticos obtidos no gráfico:
+  - Plotar dados sintéticos obtidos no gráfico:
   
 ```python
 #plotar dados gráfico
@@ -196,7 +201,7 @@ plt.show()
  ![Imagem Browser - Plotar Grafico](/imagens/browser_graficos.png "Figura - 24")
  
  
-      - Consolidação dos resultados:
+   - Consolidação dos resultados:
   
 ```python
 #organização dos dados em tabelas, para melhor visualização dos dados
