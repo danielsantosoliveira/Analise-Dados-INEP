@@ -152,7 +152,6 @@ d = './Dados/'
 pN = 'DM_ALUNO_' 
 anos = ['2009', '2010', '2011', '2012', '2013'] 
 e = '.CSV'
-dm = 'DM.CSV'
 dados = []
 dadosFe = []
 dadosEs = []
