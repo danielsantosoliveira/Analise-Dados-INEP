@@ -209,13 +209,9 @@ plt.show()
   
 ```python
 #organização dos dados em tabelas, para melhor visualização dos dados
-consolidacao = {
-'2009': [dadosFe[0], dadosEs[0], dadosMu[0], dados[0]],
-'2010': [dadosFe[1], dadosEs[1], dadosMu[1], dados[1]],
-'2011': [dadosFe[2], dadosEs[2], dadosMu[2], dados[2]],
-'2012': [dadosFe[3], dadosEs[3], dadosMu[3], dados[3]],
-'2013': [dadosFe[4], dadosEs[4], dadosMu[4], dados[4]],
-}
+consolidacao = {}
+for x in range(5):    
+    consolidacao.update({anos[x]: [dadosFe[x], dadosEs[x], dadosMu[x], dados[x]],})
 df_DC = pd.DataFrame(consolidacao, columns=anos, index=['Federal','Estadual','Municipal','Total'])
 df_DC
 ```
