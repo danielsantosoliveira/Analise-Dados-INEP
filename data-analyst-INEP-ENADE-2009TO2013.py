@@ -1,4 +1,4 @@
-''' @author: Daniel e Everton
+''' @author: Daniel
     Análise de dados INEP/ENAD: Evolução dos negros (Pretos e Pardos) ingressantes em Universidades Públicas do Brasil;
     Anos de referência: 2009 até 2013;
     Dados extraídos do site:
