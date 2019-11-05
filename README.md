@@ -1,21 +1,7 @@
 # Analise-Dados-INEP
 Análise de dados INEP ENAD, negros (Pretos e Pardos) ingressantes a faculdades públicas no BRASIL.
 
-**Alunos**: Daniel e Everton;
-
-**Curso**: Análise e Desenvolvimento de Sistemas;
-
-**Período**: 1º Semestre;
-
-**Turma**: B;
-
-**Materia**: Algoritmo e Lógica de Programação;
-
-**Professor**: Fernando Masanori;
-
-**Atividade**: EP1: Análise de Dados.
-
-## Equipamento utilizado para o trabalho:
+## Equipamento utilizado:
 - Nome do Sistema Operacional: Microsoft Windows 7 Professional;
 - Versão: 6.1.7601 Service Pack 1 Compilação 7601;
 - Tipo do sistema: x64-based PC;
