@@ -44,7 +44,9 @@ Análise de dados INEP ENAD, negros (Pretos e Pardos) ingressantes a faculdades 
     
  ![Imagem janela executar](/imagens/executar.PNG "Figura - 7")
  
-   - Digite o comando <pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 pytrends seaborn numpy ipython jupyter twitter-scraper markovify folium> e pressione enter, aguarde a instalação dos pacotes, **Figura - 8**.
+   - Digite o comando: 
+   '''pip install requests beautifulsoup4 spotipy pdfminer3k selenium twitter wbdata pandas matplotlib lxml tweepy uber-rides xlrd PyPDF2 pytrends seaborn numpy ipython jupyter twitter-scraper markovify folium'''
+   - Pressione enter, aguarde a instalação dos pacotes, **Figura - 8**.
   
  ![Imagem cmd PIP instalação dependências](/imagens/cmd_install_dependencias.PNG "Figura - 8")
 
